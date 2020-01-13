@@ -95,7 +95,7 @@
                 class: Image,
                 config: {
                   endpoints: {
-                    byFile: "http://127.0.0.1:8000/package_images"
+                    byFile: "http://35.154.220.96/backend/package_images"
                   }
                 }
               }

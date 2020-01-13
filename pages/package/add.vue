@@ -165,13 +165,13 @@
           height: 300
         })
         .use(Uppy.XHRUpload, {
-          endpoint: "http://127.0.0.1:8000/package_images"
+          endpoint: "http://35.154.220.96/backend/package_images"
         });
 
       uppy.on("complete", result => {
         result.successful.map(item => {
           this.images.push(
-            "http://127.0.0.1:8000/media/uppy_images/" + item.name
+            "http://35.154.220.96/media/uppy_images/" + item.name
           );
         });
       });
