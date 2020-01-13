@@ -1,0 +1,39 @@
+{
+  "name": "Admin_Dashboard",
+  "version": "1.0.0",
+  "description": "My unreal Nuxt.js project",
+  "author": "dhirusarania",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "format": "prettier"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "@nuxtjs/toast": "^3.3.0",
+    "cookie-universal-nuxt": "^2.0.19",
+    "formBuilder": "^3.2.5",
+    "nuxt": "^2.0.0",
+    "postcss-color-mod-function": "^3.0.3",
+    "toastr": "^2.1.4",
+    "vue-good-table": "^2.18.0",
+    "vue2-perfect-scrollbar": "^1.2.1"
+  },
+  "devDependencies": {
+    "@editorjs/editorjs": "^2.16.1",
+    "@editorjs/header": "^2.3.2",
+    "@editorjs/image": "^2.3.3",
+    "@editorjs/list": "^1.4.0",
+    "@editorjs/paragraph": "^2.6.1"
+  },
+  "config": {
+    "nuxt": {
+      "host": "127.0.0.1",
+      "port": "3333"
+    }
+  }
+}
