@@ -17,7 +17,7 @@
     "@nuxtjs/toast": "^3.3.0",
     "cookie-universal-nuxt": "^2.0.19",
     "formBuilder": "^3.2.5",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "postcss-color-mod-function": "^3.0.3",
     "toastr": "^2.1.4",
     "vue-good-table": "^2.18.0",
